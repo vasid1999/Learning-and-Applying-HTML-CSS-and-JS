@@ -1,0 +1,134 @@
+@font-face
+{
+	font-family:"raleway-light";
+	src:url(Fonts/Raleway/Raleway-Light.ttf);	/*Downloaded from https://www.1001fonts.com/*/
+}
+
+@font-face
+{
+	font-family:"prototype";
+	src:url(Fonts/Prototype.ttf);				/*Downloaded from https://www.1001fonts.com/*/
+}
+
+/*
+If someone could help me with this, it would be greatly appreciated
+html
+{
+	height:100%;
+}*/
+
+a
+{
+	text-decoration:none;
+	color:#112244;
+}
+
+a:hover
+{
+	text-decoration:none;
+	color:#224488;
+}
+
+/*
+Use to edit the appearance of options of header bar:
+td.topbaroptions>a{
+	
+}
+td.topbaroptions>a:hover{
+	
+}
+*/
+
+body
+{
+	/*min-height:100%;*/
+	padding:0;
+	margin:0;
+	font-family:"raleway-light";
+	color:#000000;
+	font-size:2.8vh;
+}
+
+#topbar
+{
+	height:12vh;
+	background-color:#ff7700;
+	border-bottom:2vh solid #ffbb00;/*try linear gradient too*/
+	color:#002244;
+}
+
+#pagetitle
+{
+	display:block;
+	float:left;
+	padding:2vh 5vw 2vh 4vw;
+	font-size:6vh;
+}
+
+#topbaroptions
+{
+	float:right;
+	padding:3vh 5vw 0 0;
+}
+
+td.topbaroptions
+{
+	text-align:center;
+	font-size:4vh;
+	border-left:1px solid black;
+	padding:0 2vw 0 2vw;
+}
+
+td.topbaroptions:hover
+{
+	text-align:center;
+	font-size:4vh;
+	border-left:1px solid black;
+	padding:0 2vw 0 2vw;
+	color:#004488;
+}
+
+#mainbody
+{
+	padding:5vh 10vw 5vh 10vw;
+	text-align:justify;
+	background-image:linear-gradient(#ffeedd,#ffffff);
+	background-size:100% 100%;
+}
+
+#sidebar-left{
+	display:block;
+	float:left;
+	width:10vw;
+}
+
+#sidebar-right{
+	float:right;
+	width:10vw;
+}
+
+.picleftwordwrap
+{
+	float:left;
+	padding:0 2vw 1vh 0;
+	width:30vw;
+	text-align:center;
+}
+
+.picrighttwordwrap
+{
+	float:right;
+	padding:0 2vw 1vh 0;
+	width:30vw;
+	text-align:center;
+}
+
+#bottombar
+{
+	height:8vh;
+	background-color:#ff7700;
+	border-top:2vh solid #ffbb00;/*try linear gradient too*/
+	color:#002244;
+	width:100%;
+	bottom:0;
+}
